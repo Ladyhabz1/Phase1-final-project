@@ -19,6 +19,21 @@ function renderProduct(product){
     document.querySelector(".container").appendChild(card);
 }
 
+//function to render product menu in ul#product
+function renderProductMenu(product){
+    const productList = document.querySelector("#products");
+    const itemList = document.createElement("li");
+    itemList.className = 'item-list';
+    itemList.textContent = product.name;
+    
+    //Highlight and display product details on click
+    itemList.addEventListener("click", () => {
+        document.querySelector(".container").innerHTML = ""; //clear previous cards
+        renderProduct(product); //render only the selected product
+    });
+    productList.appendChild(itemList);
+}
+
 const baseUrl = 'http://localhost:3000/products'
 
 fetch(baseUrl)
