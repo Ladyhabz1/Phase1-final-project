@@ -70,7 +70,9 @@
         "brand": "NYX Professional Makeup Slim Lip Pencil",
         "price": "650",
         "description": "NYX Professional Makeup Slim Lip Pencil",
-        "image_link": "images.jpeg/Lip-liner.jpeg"      {
+        "image_link": "images.jpeg/Lip-liner.jpeg"
+      },
+      {
         "id": "10",
         "name": "makeup Brush",
         "brand": "Real Techniques Expert Face Brush",
