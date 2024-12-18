@@ -1,0 +1,108 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "lipstick",
+        "brand": "MAC Matte Lipstick",
+        "price": "5000",
+        "description": "A long-lasting, richly pigmented lipstick with a smooth matte finish.",
+        "image_link": "img.src/Lipstick.jpeg"
+      },
+      {
+        "id": "2",
+        "name": "Bronzer",
+        "brand": "Benefit Hoola Matte Bronzer",
+        "price": "350",
+        "description": "A natural-looking matte bronzer ideal for contouring or adding warmth to the complexion.",
+        "image_link": "images.jpeg/Bronzer.jpeg"
+      },
+      {
+        "id": "3",
+        "name": "Concealer",
+        "brand": "Tarte Shape Tape Concealer",
+        "price": "500",
+        "description": "A full-coverage, creamy concealer that hides imperfections and brightens the under-eye area.",
+        "image_link": "images.jpeg/Concealer.jpeg"
+      },
+      {
+        "id": "4",
+        "name": "Contour",
+        "brand": "Anastasia Beverly Hills Contour Kit",
+        "price": "500",
+        "description": "A palette with contour and highlight shades to sculpt and define facial features.",
+        "image_link": "images.jpeg/contour.jpeg"
+      },
+      {
+        "id": "5",
+        "name": "Eyeliner",
+        "brand": "Maybelline Eye Studio Gel Eyeliner",
+        "price": "800",
+        "description": "A waterproof, smudge-proof gel eyeliner for precise and bold lines.",
+        "image_link": "images.jpeg/Eye_liner.jpeg"
+      },
+      {
+        "id": "6",
+        "name": "Eyeshadow",
+        "brand": "Urban Decay Naked Eyeshadow Palette",
+        "price": "350",
+        "description": " A versatile palette with a mix of matte, shimmer, and glitter shades for all occasions.",
+        "image_link": "images.jpeg/Eyeshadow.jpeg"
+      },
+      {
+        "id": "7",
+        "name": "Foundation",
+        "brand": "Estée Lauder Double Wear Stay-in-Place Foundation",
+        "price": "10,000",
+        "description": "A long-wear, lightweight foundation with a natural matte finish and buildable coverage.",
+        "image_link": "images.jpeg/Foundation.jpeg"
+      },
+      {
+        "id": "8",
+        "name": "Lip Gloss",
+        "brand": "Fenty Beauty Gloss Bomb Universal Lip Luminizer",
+        "price": "1700",
+        "description": "A non-sticky, high-shine gloss available in a variety of universal shades.",
+        "image_link": "images.jpeg/Lip-gloss.jpeg"
+      },
+      {
+        "id": "9",
+        "name": "lip Liner",
+        "brand": "NYX Professional Makeup Slim Lip Pencil",
+        "price": "650",
+        "description": "NYX Professional Makeup Slim Lip Pencil",
+        "image_link": "images.jpeg/Lip-liner.jpeg"
+      },
+      {
+        "id": "10",
+        "name": "makeup Brush",
+        "brand": "Real Techniques Expert Face Brush",
+        "price": "450",
+        "description": " A densely packed, rounded brush for a streak-free, airbrushed foundation finish.",
+        "image_link": "iimages.jpeg/Makeup-brush.jpeg"
+      },
+      {
+        "id": "11",
+        "name": "Mascaras",
+        "brand": "L'Oréal Paris Voluminous Lash Paradise Mascara",
+        "price": "5000",
+        "description": "A volumizing mascara that delivers dramatic length and full, feathery lashes.",
+        "image_link": "images.jpeg/Mascara.jpeg"
+      },
+      {
+        "id": "12",
+        "name": "Primer",
+        "brand": "Smashbox Photo Finish Foundation Primer",
+        "price": "1015",
+        "description": "A silicone-based primer that smooths skin texture and preps for flawless makeup application.",
+        "image_link": "images.jpeg/Primer.jpeg"
+      },
+      {
+        "id": "13",
+        "name": "Setting-powder",
+        "brand": " Laura Mercier Translucent Loose Setting Powder",
+        "price": "369",
+        "description": "A lightweight, finely milled powder that sets makeup and controls shine.",
+        "image_link": "images.jpeg/Setting-powder.jpeg"
+      }
+    ]
+    }
