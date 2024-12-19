@@ -3,6 +3,7 @@ const baseUrl = 'http://localhost:3000/products'
 function renderProduct(product){
     const card =  document.createElement("div");
     card.className = 'div';
+    const volumeAvailable = product.volume - product.products_sold;
 
 //Cards innerHTML with the layout
     card.innerHTML = `
@@ -12,6 +13,7 @@ function renderProduct(product){
             <h4>Brand: ${product.brand}</h4>
             <p>${product.description}</p>
             <span class="price">Price: ${product.price}Ksh</span>
+            <span class="volume">Available : ${volumeAvailable}</span>
         </div>
         <div class="button">
             <button class="purchase-btn">Buy Product</button>
