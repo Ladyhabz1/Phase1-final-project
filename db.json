@@ -6,7 +6,9 @@
         "brand": "MAC Matte Lipstick",
         "price": "5000",
         "description": "A long-lasting, richly pigmented lipstick with a smooth matte finish.",
-        "image_link": "images.jpeg/Lipstick.jpeg"
+        "image_link": "images.jpeg/Lipstick.jpeg",
+        "volume": 40,
+        "products_sold": 38
       },
       {
         "id": "2",
@@ -14,7 +16,9 @@
         "brand": "Benefit Hoola Matte Bronzer",
         "price": "350",
         "description": "A natural-looking matte bronzer ideal for contouring or adding warmth to the complexion.",
-        "image_link": "images.jpeg/Bronzer.jpeg"
+        "image_link": "images.jpeg/Bronzer.jpeg",
+        "volume": 33,
+        "products_sold": 6
       },
       {
         "id": "3",
@@ -22,7 +26,9 @@
         "brand": "Tarte Shape Tape Concealer",
         "price": "500",
         "description": "A full-coverage, creamy concealer that hides imperfections and brightens the under-eye area.",
-        "image_link": "images.jpeg/Concealer.jpeg"
+        "image_link": "images.jpeg/Concealer.jpeg",
+        "volume": 189,
+        "products_sold": 101
       },
       {
         "id": "4",
@@ -30,7 +36,9 @@
         "brand": "Anastasia Beverly Hills Contour Kit",
         "price": "500",
         "description": "A palette with contour and highlight shades to sculpt and define facial features.",
-        "image_link": "images.jpeg/contour.jpeg"
+        "image_link": "images.jpeg/contour.jpeg",
+        "volume": 77,
+        "products_sold": 14
       },
       {
         "id": "5",
@@ -38,7 +46,9 @@
         "brand": "Maybelline Eye Studio Gel Eyeliner",
         "price": "800",
         "description": "A waterproof, smudge-proof gel eyeliner for precise and bold lines.",
-        "image_link": "images.jpeg/Eye_liner.jpeg"
+        "image_link": "images.jpeg/Eye_liner.jpeg",
+        "volume": 87,
+        "products_sold": 33
       },
       {
         "id": "6",
@@ -46,7 +56,9 @@
         "brand": "Urban Decay Naked Eyeshadow Palette",
         "price": "350",
         "description": " A versatile palette with a mix of matte, shimmer, and glitter shades for all occasions.",
-        "image_link": "images.jpeg/Eyeshadow.jpeg"
+        "image_link": "images.jpeg/Eyeshadow.jpeg",
+        "volume": 89,
+        "products_sold": 7
       },
       {
         "id": "7",
@@ -54,7 +66,9 @@
         "brand": "Estée Lauder Double Wear Stay-in-Place Foundation",
         "price": "10,000",
         "description": "A long-wear, lightweight foundation with a natural matte finish and buildable coverage.",
-        "image_link": "images.jpeg/Foundation.jpeg"
+        "image_link": "images.jpeg/Foundation.jpeg",
+        "volume": 99,
+        "products_sold": 45
       },
       {
         "id": "8",
@@ -70,7 +84,9 @@
         "brand": "NYX Professional Makeup Slim Lip Pencil",
         "price": "650",
         "description": "NYX Professional Makeup Slim Lip Pencil",
-        "image_link": "images.jpeg/Lip-liner.jpeg"
+        "image_link": "images.jpeg/Lip-liner.jpeg",
+        "volume": 63,
+        "products_sold": 43
       },
       {
         "id": "10",
@@ -78,7 +94,9 @@
         "brand": "Real Techniques Expert Face Brush",
         "price": "450",
         "description": " A densely packed, rounded brush for a streak-free, airbrushed foundation finish.",
-        "image_link": "images.jpeg/Makeup-brush.jpeg"
+        "image_link": "images.jpeg/Makeup-brush.jpeg",
+        "volume": 278,
+        "products_sold": 176
       },
       {
         "id": "11",
@@ -86,7 +104,9 @@
         "brand": "L'Oréal Paris Voluminous Lash Paradise Mascara",
         "price": "5000",
         "description": "A volumizing mascara that delivers dramatic length and full, feathery lashes.",
-        "image_link": "images.jpeg/Mascara.jpeg"
+        "image_link": "images.jpeg/Mascara.jpeg",
+        "volume": 88,
+        "products_sold": 35
       },
       {
         "id": "12",
@@ -94,7 +114,9 @@
         "brand": "Smashbox Photo Finish Foundation Primer",
         "price": "1015",
         "description": "A silicone-based primer that smooths skin texture and preps for flawless makeup application.",
-        "image_link": "images.jpeg/Primer.jpeg"
+        "image_link": "images.jpeg/Primer.jpeg",
+        "volume": 143,
+        "products_sold": 22
       },
       {
         "id": "13",
@@ -102,7 +124,9 @@
         "brand": " Laura Mercier Translucent Loose Setting Powder",
         "price": "369",
         "description": "A lightweight, finely milled powder that sets makeup and controls shine.",
-        "image_link": "images.jpeg/Setting-powder.jpeg"
+        "image_link": "images.jpeg/Setting-powder.jpeg",
+        "volume": 76,
+        "products_sold": 65
       }
     ]
     }
