@@ -81,6 +81,46 @@ header p {
     font-size: 1rem; /* Medium price text */
     margin-bottom: 1rem;
 }
+/* Style for the search bar */
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-bar:focus {
+    border-color: #ff00d4; /* Highlight with a blue border when focused */
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #ff00ea; /* Primary blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.search-button:hover {
+    background-color: #b30077; /* Darker blue when hovered */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.search-button:active {
+    background-color: pink; /* Even darker blue on click */
+    transform: scale(0.95); /* Slight compression effect */
+}
+
+
 
 /* Footer */
 footer {
