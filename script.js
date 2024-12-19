@@ -9,7 +9,7 @@ function renderProduct(product){
         <img src="${product.image_link}" alt="Product Image" class="product-image">
         <div class="description">
             <h3>${product.name}</h3>
-            <h4>${product.brand}</h4>
+            <h4>Brand: ${product.brand}</h4>
             <p>${product.description}</p>
             <span class="price">Price: ${product.price}Ksh</span>
         </div>
