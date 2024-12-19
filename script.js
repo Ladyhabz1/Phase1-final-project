@@ -12,14 +12,40 @@ function renderProduct(product){
             <h3>${product.name}</h3>
             <h4>Brand: ${product.brand}</h4>
             <p>${product.description}</p>
-            <span class="price">Price: ${product.price}Ksh</span>
-            <span class="volume">Available : ${volumeAvailable}</span>
+            <sp>Price: ${product.price}Ksh</p>
+            <span class="volume">Available: ${volumeAvailable}</span>
         </div>
         <div class="button">
-            <button class="purchase-btn">Buy Product</button>
+            <button class="purchase-btn" ${volumeAvailable === 0 ? "disabled" : ""}>
+                ${volumeAvailable === 0 ? "sold Out" : "Buy Ticket"}
+            </button>
         </div>        
     `;
+    //Adding the card into the container
     document.querySelector(".container").appendChild(card);
+
+    //Adding functionality to the purchase button
+    const purchaseButton = card.querySelector(".purchase-btn");
+    const volumeElement = card.querySelector(".volume");
+
+    purchaseButton.addEventListener("click", () => {
+        if(volumeAvailable > 0){
+            alert("You can purchase!");
+
+
+            // Update the products sold and volume available
+            product.products_sold += 1;
+            const newVolumeAvailable = product.volume - product.products_sold;
+            volumeElement.textContent = `Available: ${newVolumeAvailable}`;
+
+            //if sold out i disable the button
+            if(newVolumeAvailable === 0){
+                purchaseButton.textContent = "Sold Out";
+                purchaseButton.disabled = true;
+            }
+
+        }
+    });
     
 }
 
