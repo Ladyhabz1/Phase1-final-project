@@ -1,3 +1,4 @@
+const baseUrl = 'http://localhost:3000/products'
 //Render the products
 function renderProduct(product){
     const card =  document.createElement("div");
@@ -35,8 +36,6 @@ function renderProductMenu(product){
     productList.appendChild(itemList);
 }
 
-const baseUrl = 'http://localhost:3000/products'
-
 function showAllProducts(){
     fetch(baseUrl)
         .then(res => res.json())
@@ -56,6 +55,40 @@ function showAllProducts(){
         });
     })
     .catch(Error => console.error("Error fetching product", Error))
+}
+
+//Function to handle the searchbar
+function handleSearch(product){
+    const searchButton = document.querySelector(".search-button");
+    const searchBar = document.querySelector(".search-bar");
+
+    searchButton.addEventListener("click", () => {
+        const querry = searchBar.value.toLowerCase();
+
+        //clear the existing cards
+        document.querySelector(".container").innerHTML = "";
+   
+        fetch(baseUrl)
+            .then(res => res.json())
+            .then(productData => {
+                const filterProduct = productData.filter((product) => 
+                        product.name.toLowerCase().includes(querry)
+                );
+                //clear the existing cards
+                document.querySelector(".container").innerHTML = "";
+
+                if(filterProduct.length === 0){
+                    document.querySelector(".container").innerHTML = "";
+                    <p>No product matches found for ${querry}</p>
+                } else {
+                    filterProduct.forEach((product) =>  renderProduct());
+                }
+            })
+            .catch(Error => console.error("Error fetching the search", Error));
+            
+    })
+
+
 }
 
 //Inititalize the application
@@ -101,8 +134,20 @@ document.addEventListener("DOMContentLoaded", () => {
         container.className = "container";
         document.body.appendChild(container);
     }
+    if (!document.querySelector(".search-button")) {
+        const searchButton = document.createElement("button");
+        searchButton.className = "search-button";
+        searchButton.textContent = "Search";
+        document.body.prepend(searchButton);
+    }
+    if (!document.querySelector(".container")) {
+        const container = document.createElement("div");
+        container.className = "container";
+        document.body.appendChild(container);
+    }
 
     // Initialize the functionality
     showAllProducts();
+    handleSearch();
     
 })
