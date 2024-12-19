@@ -18,7 +18,9 @@ function renderProduct(product){
         </div>        
     `;
     document.querySelector(".container").appendChild(card);
+    
 }
+
 
 //function to render product menu in ul#product
 function renderProductMenu(product){
@@ -114,16 +116,17 @@ document.addEventListener("DOMContentLoaded", () => {
             overflow-y: auto;
         }
 
-        .product.item {
+        .item-list {
             padding: 10px;
             margin: 5px 0;
             cursor: pointer;
             transition: background-color 0.3s;
-        }
+    }
 
-        .product.item:hover {
+        .item-list:hover {
             background-color: #ddd;
-        }
+}
+
     `;
     document.head.appendChild(style);
 
