@@ -76,7 +76,9 @@
         "brand": "Fenty Beauty Gloss Bomb Universal Lip Luminizer",
         "price": "1700",
         "description": "A non-sticky, high-shine gloss available in a variety of universal shades.",
-        "image_link": "images.jpeg/Lip-gloss.jpeg"
+        "image_link": "images.jpeg/Lip-gloss.jpeg",
+        "volume": 22,
+        "products_sold": 18
       },
       {
         "id": "9",
