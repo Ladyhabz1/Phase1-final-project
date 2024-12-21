@@ -17,7 +17,7 @@ function renderProduct(product){
         </div>
         <div class="button">
             <button class="purchase-btn" ${volumeAvailable === 0 ? "disabled" : ""}>
-                ${volumeAvailable === 0 ? "sold Out" : "Buy Ticket"}
+                ${volumeAvailable === 0 ? "sold Out" : "Buy Product"}
             </button>
         </div>        
     `;
